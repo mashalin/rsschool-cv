@@ -43,6 +43,6 @@ const func = (num) => {
 
 English - Intermediate
 
-Russian - Native
-
 Belarusian - Native
+
+Russian - Native
