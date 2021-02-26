@@ -43,7 +43,7 @@ h2 {
   font-size: 20px;
 }
 
-i {
+.italics {
   font-size: 18px;
   font-family: Arial;
   color: #2e2a2a;
@@ -68,4 +68,9 @@ i {
   font-size: 14px;
   background-color: rgb(240, 222, 237);
   margin: 0 auto;
+}
+
+.italics2 {
+  font-family: Tahoma;
+  color: #97194a;
 }
