@@ -9,9 +9,10 @@
 </head>
 <body>
   <div class="card">
-    <img class="card-photo" src="img/me.jpg" alt="Maria Trushel">
-    <h1 class="card-title">Maria Trushel</h1>
-    <div>
+    <header>
+      <img class="card-photo" src="img/me.jpg" alt="Maria Trushel">
+      <h1 class="card-title">Maria Trushel</h1>
+
       <table class="card-table">
         <tr>
           <td>mashatrushel666@gmail.com</td>
@@ -19,7 +20,8 @@
           <td>Minsk, Belarus</td>
         </tr>
       </table>
-    </div>
+    </header>
+    <section>
       <h2>Front-end developer</h2>
       <h3><i class="italics">Soft skills:</i></h3>
       <p class="text">Communicability, attentiveness, stress tolerance, teamwork, <b>desire to work and develop</b>, analytic mind, tendency to self-study, work ethic, adaptability.</p>
@@ -30,6 +32,8 @@
         <li>Knowledge of HTML5, CSS3, JS</li>
         <li>Ability to work with Git and GitHub</li>
       </ul>
+    </section>
+      
       <div class="code"> 
         <p>
         const func = (num) => {<br>
@@ -40,12 +44,15 @@
         };<br> 
         </p>
       </div>
-      <h3 class="card-heading">Education :</h3>
+      <article>
+        <h3 class="card-heading">Education :</h3>
       <ul class="card-list" >
         <li>Incomplete higher<i class="italics2">(Belarusian State Technological University, Faculty of Chemical Technology and Engineering)</i></li>
         <li>Online software testing courses</li>
       </ul>
-      <h3 class="card-heading">Languages</h3>
+      </article>
+      <section>
+        <h3 class="card-heading">Languages</h3>
       <p class="text">
         English - Intermediate<br>
 
@@ -53,7 +60,19 @@
         
         Russian - Native<br>
       </p>
-  
+      </section>
+      <footer>
+        <address>
+          My <a class="link-color" href="https://github.com/mashalin" target="_blank">GitHub</a> account
+        </address>
+        <figure>
+          <img class="logo" src="img/rs_school.svg" alt="Rsschool logo">
+          <figcaption>
+            <a class="link-color" href="https://rs.school/js/" target="_blank">Link to course</a>
+          </figcaption>
+        </figure>
+        <p>2021</p>
+      </footer>
   </div>
  
 </body>
